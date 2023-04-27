@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aula 3</title>
+        <style>
+            h1,h2,h3, span.titulo{
+                color: red;
+            }
+            #ad li.important strong{
+                text-decoration: underline;
+                color: orange;
+            }
+            strong{
+                color: green;
+            }
+            span {
+                color: blue;
+            }
+            div > strong{
+                color: purple;
+            }
+            
+            p ~ span {
+                color: red;
+            }
+            span {
+                color: blue;
+            }
+            p + span {
+                color: red;
+            }
+            .parent{
+                color: blue;
+                background-color: gray;
+                width: 500px;
+                height: 500px;
+            }
+            .special.box{
+                color: red;
+            }
+            #b{
+                color: orange;
+            }
+            div > .box{
+                font-size: 2em;
+                background-color: white;
+                border: 1px solid;
+                margin: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Cabeçalho 1</h1>
+        <h3>Cabeçalho 3</h3>
+        <p>Meu
+            <span class="titulo">subtitulo</span>
+        </p>
+        <div id="ad">
+            <p>Loja<strong>Hardware Hardwick</strong></p>
+            <ul>
+                <li class="important">Os <strong>melhores</strong> preços da cidade!</li>
+                <li>Enquanto <strong>durar o estoque</strong>!</li>
+            </ul>
+        </div>
+        <div>
+            Eu gosto de uva <strong>Roxa</strong>
+            <p>Eu prefiro uva <strong>Verde</strong></p>
+        </div>
+        <span>Irmão que vem antes. </span>
+        <p>Irmão principal. </p>
+        <span>Irmão que vem depois! </span>
+        <code>Irmão que vem depois! </code>
+        <span>Outro irmão</span>
+        <h2>Mais um irmão. </h2>
+        <span>Último irmão.</span>
+
+        <span>Irmão que vem antes. </span>
+        <p>Irmão principal. </p>
+        <span>Irmão que vem depois! </span>
+        <code>Irmão que vem depois! </code>
+        <span>Outro irmão</span>
+        <h2>Mais um irmão. </h2>
+        <span>Último irmão.</span>
+
+
+
+        <div class="parent">
+            <div class="box" style="color: purple;">Caixa 1</div>
+            <div class="box" id="a">Caixa 2</div>
+            <div class="box">Caixa 3</div>
+            <div class="box special" id="b">Caixa 4</div>
+            
+        </div>
+    </body>
+</html>

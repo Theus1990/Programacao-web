@@ -1,0 +1,26 @@
+body{
+    font-family: 'Helvetica, Arial,sans-serif';
+}
+header{
+    background-color: #333333;
+}
+a{ 
+    color: #FFFFFF;
+}
+section > h2{
+    color: #0099FF;
+}
+.date {
+    font-size: 14px;
+    font-style: italic;
+    color: gray;
+}
+.impar{
+    background-color: #F2F2F2;
+}
+#Destaques > ul > li > article > h3> a{
+    color: red;
+}
+#recentes > ul > li > article > h3> a {
+    color: #FF9900;
+}
