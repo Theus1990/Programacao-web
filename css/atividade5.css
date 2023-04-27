@@ -1,0 +1,11 @@
+label{
+    font-size: 1.1em;
+}
+input, textarea{
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+button{
+    background-color: #007bff;
+    color: white;
+}
