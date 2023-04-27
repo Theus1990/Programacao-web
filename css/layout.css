@@ -1,0 +1,16 @@
+.item{
+    background-color: lightblue;
+    padding: 1rem;
+    
+}
+/*.container{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}*/
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
