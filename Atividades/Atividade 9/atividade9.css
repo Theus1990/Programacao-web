@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 350px;
+    height: 200px;
+}
+.italia-verde{
+    background-color: green;
+    padding: 1rem;
+    width: 100px;
+    height: 150px;
+}
+.italia-branco{
+    background-color: white;
+    padding: 1rem;
+    width: 100px;
+    height: 150px;
+}
+.italia-vermelho{
+    background-color: red;
+    padding: 1rem;
+    width: 100px;
+    height: 150px;
+}
