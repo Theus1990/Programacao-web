@@ -26,3 +26,5 @@ class Pokemon {
   }
   falar = () => `${this.nome}`;
 }
+
+alert();
