@@ -28,3 +28,8 @@ class Pokemon {
 }
 
 alert();
+dfsdnfsjklvdfg;
+dfgkdslçgfjlçdfs;
+dfgldmslçmlds;
+dfgsmdlkmvflsdfvnd, vmn;
+dçfvndklbnklvsd;
