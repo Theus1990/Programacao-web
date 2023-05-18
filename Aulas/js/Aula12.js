@@ -26,3 +26,10 @@ class Pokemon {
   }
   falar = () => `${this.nome}`;
 }
+
+alert();
+dfsdnfsjklvdfg;
+dfgkdslçgfjlçdfs;
+dfgldmslçmlds;
+dfgsmdlkmvflsdfvnd, vmn;
+dçfvndklbnklvsd;
