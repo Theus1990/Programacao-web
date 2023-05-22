@@ -1,0 +1,30 @@
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+body {
+  background-color: grey;
+}
+figure {
+  margin: 5%;
+}
+figcaption {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+figure a {
+  color: #007bff;
+  text-decoration: none;
+}
+figure a:hover {
+  transition: 1s;
+  color: rgb(25, 0, 255);
+}
+img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: outset 5px 5px 5px 5px black;
+}
+img:hover {
+  filter: brightness(120%);
+}
