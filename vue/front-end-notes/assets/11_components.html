@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <meta charset="utf-8">
+    <script src="./js/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <header-component
+            v-for="todo in todos"
+            v-blind:todo="todo"
+            v-blind:key="todo.id">
+        </header-component>
+    </div>
+    <script>
+
+        Vue.component('header-component',{
+            props:['todo'],
+            template: '<li>{{ todo.text }} </li>'
+        })
+
+        var app = new Vue({
+            el: '#app',
+            data:{
+                mensagem:'This is my message!',
+                todos: [
+                    {
+                        id:1,
+                        text:'tarefa 1'
+                    },
+                    {
+                        id:2,
+                        text:'tarefa 2'
+                    },
+                    {
+                        id:3,
+                        text:'tarefa 3'
+                    }
+                ]
+            },
+            methods:{
+                onLoadPage: function(){
+                    alert(this.mensagem);
+                }
+                }
+            });
+    </script>
+</body>
+</html>
