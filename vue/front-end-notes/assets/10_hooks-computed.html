@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Document</title>
+    <meta charset="utf-8">
+    <script src="./js/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+      
+    </div>
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data:{
+                mensagem:'SOCORROOOOO',
+            },
+            computed:{
+               onloadPage: function(){
+                alert(this.mensagem);
+               }
+            },
+            created(){
+                this.onloadPage()
+            }
+        });
+    </script>
+</body>
+</html>
